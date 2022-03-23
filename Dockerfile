@@ -7,8 +7,8 @@ EXPOSE 3000
 WORKDIR /app
 
 ADD . /app
-RUN chmod +x /app/run-server.sh
+# RUN chmod +x /app/run-server.sh
 
 RUN npm install
-
-CMD [ "/app/run-server.sh"]
+CMD ["npm", "start"]
+# CMD [ "/app/run-server.sh"]

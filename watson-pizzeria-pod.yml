@@ -16,7 +16,7 @@ spec:
     tier: frontend
 ---
 # Application to deploy
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: pizza-bot
